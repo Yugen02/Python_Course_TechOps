@@ -1,0 +1,4 @@
+Ciudad	Temperatura	Humedad
+Madrid	15	60
+Buenos Aires	22	70
+Ciudad de México	25	80

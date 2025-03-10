@@ -34,3 +34,14 @@ print("La pendiente de la recta es: {}, {}".format(round(m, 2), 5))
 x = 0
 x += 3
 print(x)
+
+
+
+for x in items:
+    if condition:
+    [do this ... ]
+    break
+    do this
+do this when loop is finished
+
+

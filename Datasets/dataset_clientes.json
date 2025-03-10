@@ -1,0 +1,17 @@
+[
+    {
+        "Cliente": "Empresa A",
+        "Ubicacion": "Espa\u00f1a",
+        "Compras": 10
+    },
+    {
+        "Cliente": "Empresa B",
+        "Ubicacion": "M\u00e9xico",
+        "Compras": 5
+    },
+    {
+        "Cliente": "Empresa C",
+        "Ubicacion": "Argentina",
+        "Compras": 8
+    }
+]
