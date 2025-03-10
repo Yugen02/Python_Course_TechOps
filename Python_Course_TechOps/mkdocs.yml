@@ -1,1 +1,50 @@
-site_name: My Docs
+site_name: Curso Basico de Python - Pandas Tech Ops
+nav:
+  - Introduccion: index.md
+  - About: about.md
+  - Dia 1: 1.md
+  - Dia 2:
+    - Dia 3: 3.md
+  - Dia 3:
+    - Dia 4: 4.md
+
+
+theme:
+  name: "material"
+  logo: img\Copa_Airlines-Logo-chico.png
+  favicon: img/Copa_Airlines-Logo-chico.png
+  custom_dir: overrides
+  features:
+    - content.code.copy
+    - navigation.expand  # Mantiene desplegado el menú lateral
+
+  palette:
+    scheme: slate  # Activa el modo oscuro
+    primary: deep blue
+    accent: deep purple
+  font:
+    text: "Fira Sans"
+    code: "Fira Code"
+    color: "yellow"
+
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yugen02
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/tu-perfil
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true  # Opcional: Agrega números de línea
+      anchor_linenums: true
+      # use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+
+

@@ -1,6 +1,14 @@
-# Welcome to MkDocs
+# Curso de Python y Pandas
+`Creado por: Efrain Quintero`
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+En esta seccion estaremos viendo como usar Python, funciones basica y algunas aplicaciones
+el fuerte de este curso se enfoca en Pandas, ya que es la libreria mas utilizada de python para el
+analisis y tratamiento de datos.
+
+
+<!-- - [Descargar Presentacion del Curso](downloads/Capacitacion Python.pptx) -->
+- [Descargar Presentacion del Curso]
+
 
 ## Commands
 
@@ -18,3 +26,35 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## PRUEBA
 estoy realizando una prueba para ver como se comporta este projecto
+
+---
+
+## CODIGOS EJERCICIO 1
+    edad = int(input('Ingrese la edad: '))  # Entero
+    altura = float(input('Ingrese la Altura: '))  # Flotante
+    peso = float(input('Ingrese el Peso: ')) # Flotante
+
+    # Operaciones matemáticas
+    imc = peso / (altura ** 2)  # Cálculo del índice de masa corporal
+
+    # Mostrar resultados
+    print("Edad actual:", edad)
+    print("IMC:", round(imc, 2))  # Redondear a 2 decimales
+
+    print("Edad actual:" + str(edad))
+
+    x = input('Ingrese un valor: ')
+
+asdasd
+
+
+    a, b = 0, 1
+        while b < 10:
+            print(b)
+            a, b = a, a + b
+            
+
+
+
+- [Descargar código en Python](downloads/Ejercicio_1.py)
+
